@@ -1,0 +1,5 @@
+ 1.SORU SELECT c.city,co.country FROM city c LEFT JOIN country co ON co.country_id=c.country_id 
+ 
+ 2.SORU select c.first_name,c.last_name from customer c RIGHT JOIN payment p ON p.customer_id=c.customer_id 
+ 
+ 3.SORU SELECT c.first_name,c.last_name FROM customer c FULL JOIN rental r ON r.customer_id=c.customer_id
